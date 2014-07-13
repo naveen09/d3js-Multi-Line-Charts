@@ -1,0 +1,18 @@
+{
+    "field_to_data_map":{
+     "orgTestFailures":[
+       {"date":"2013-10-12","value":"2"},
+	   {"date":"2013-10-13","value":"12"},
+	   {"date":"2013-10-14","value":"200"},
+	   {"date":"2013-10-15","value":"20"},
+	   {"date":"2013-10-16","value":"2"}],
+     "orgTestSuccess":[
+       {"date":"2013-10-12","value":"7"},
+	   {"date":"2013-10-14","value":"17"},
+	   {"date":"2013-10-16","value":"14"}],
+     "orgTestInvalid":[
+	   {"date":"2013-10-14","value":"70"},
+	   {"date":"2013-10-15","value":"10"},
+	   {"date":"2013-10-16","value":"20"}]
+     }
+}

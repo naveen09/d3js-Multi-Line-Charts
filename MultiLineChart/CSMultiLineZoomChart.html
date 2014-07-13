@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>d3js Zoom Multi Line Charts</title>
+<link href="../src/nv.d3.css" rel="stylesheet" type="text/css">
+<link href="../css/custom.css" rel="stylesheet" type="text/css">
+
+<body>
+<span class="head">Zoom Options for d3js Multi Line Charts</span>
+    <div id="chart1" class='chart with-transitions'>
+        <span class="head">Sample 1</span>
+        <svg></svg>
+    </div>
+    <script src="../lib/d3.v3.js"></script>
+    <script src="../nv.d3.js"></script>
+    <script src="../src/tooltip.js"></script>
+    <script src="../src/utils.js"></script>
+    <script src="../src/interactiveLayer.js"></script>
+    <script src="../src/models/legend.js"></script>
+    <script src="../src/models/axis.js"></script>
+    <script src="../src/models/line.js"></script>
+    <script src="../src/models/lineChart.js"></script>
+    <script src="../js/cslineZoomChart.js"></script>
+
+    <script>
+        loadLineChart('#chart1', 'sample1json.txt');
+    </script>
+</body>
+
+</html>

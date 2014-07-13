@@ -1,0 +1,56 @@
+body {
+  overflow-y:scroll;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  margin-top:20px;
+  position: relative;
+  width: 70%;
+  box-shadow: 5px 5px 5px 5px #cccccc;
+}
+#chart1 .nv-lineChart circle.nv-point,
+#chart2 .nv-lineChart circle.nv-point, 
+#chart3 .nv-lineChart circle.nv-point
+{
+    fill-opacity: 1;
+    stroke-opacity: 1;
+}
+.chart svg {
+  height:500px;
+  width:500;
+  min-width: 100px;
+  min-height: 100px;
+}
+.head{
+ font-size: 1.3em;
+ font-weight: bold;
+ margin-left: 30%;
+ text-align: center;
+ color: #333333;
+}
+.tip {
+    border-bottom: 1px solid #CCCCCC;
+    color: #C2C2C2;
+    font-size: 20pt;
+    text-align: center;
+}
+.nvtooltip table td.legend-color-guide,td.key,td.value{
+    background-color: #ffffff;
+	padding: 10px;
+	color: #000000;
+}
+.nvtooltip table tr{
+    border-bottom: 1px solid #000000;
+}
+.nvtooltip {
+    -moz-user-select: none;
+    background-color: #f7f7f7;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: Arial;
+    font-size: 13px;
+    padding: 1px;
+    pointer-events: none;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10000;
+	border-radius: 10px;
+}
